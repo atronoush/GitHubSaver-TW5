@@ -141,6 +141,8 @@ Error message and password prompt
 
 <p>This <a class="tc-tiddlylink-external" href="https://tiddlywiki.com" rel="noopener noreferrer" target="_blank">TiddlyWiki</a> contains the following tiddlers:</p><p><ul>
 
+<li>$:/config/AutoSave</li>
+
 <li>$:/core</li>
 
 <li>$:/DefaultTiddlers</li>
@@ -181,6 +183,9 @@ Error message and password prompt
 <!--~~ Ordinary tiddlers ~~-->
 
 <div id="storeArea" style="display:none;">
+<div created="20190820082849164" modified="20190820082849164" title="$:/config/AutoSave">
+<pre>no</pre>
+</div>
 <div author="JeremyRuston" core-version="&gt;=5.0.0" dependents="" description="TiddlyWiki5 core" list="readme" plugin-priority="0" plugin-type="plugin" title="$:/core" type="application/json" version="5.1.20">
 <pre>{
     &quot;tiddlers&quot;: {
@@ -9399,10 +9404,10 @@ Error message and password prompt
 <div created="20190820074127295" modified="20190820074127295" title="$:/state/tab-1749438307">
 <pre>$:/core/ui/ControlPanel/Saving</pre>
 </div>
-<div created="20190820074128711" modified="20190820074128711" title="$:/state/tab-2065006209">
+<div created="20190820074128711" modified="20190820082904406" title="$:/state/tab-2065006209">
 <pre>$:/core/ui/ControlPanel/Saving/GitHub</pre>
 </div>
-<div created="20190820081408153" list="$:/ControlPanel Home" modified="20190820082421475" title="$:/StoryList">
+<div created="20190820081408153" list="Home" modified="20190820082421475" title="$:/StoryList">
 <pre></pre>
 </div>
 <div plugin-type="info" title="$:/temp/info-plugin" type="application/json">
@@ -9572,8 +9577,14 @@ Error message and password prompt
     }
 }</pre>
 </div>
-<div created="20190820080748516" modified="20190820082814692" title="Home">
-<pre>This is a link to [ext[/wikis/tw5.html]]</pre>
+<div created="20190820080748516" modified="20190820082955766" title="Home">
+<pre>This is a link to [ext[wikis/tw5.html]]
+
+To link to other wiki pages use
+
+```
+[ext[folder-path/file-name]]
+```</pre>
 </div>
 
 </div>
